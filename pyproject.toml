@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "myproject"
+version = "0.1.0"
+description = "A sample Python project using Poetry"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+pydantic = "^2.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.1.1"
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

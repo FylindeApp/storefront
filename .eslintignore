@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build/
+public/
+graphql/
+src/generated/
+src/services/graphqlService.ts

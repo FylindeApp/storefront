@@ -1,0 +1,4 @@
+[defaults]
+org = your-org
+project = your-project
+release = my-app@1.0.0
