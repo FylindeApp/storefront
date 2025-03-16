@@ -33,6 +33,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+echo "node_modules/" >> .gitignore
+
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
@@ -42,3 +45,5 @@ next-env.d.ts
 
 .idea/
 .pnpm-store
+
+
